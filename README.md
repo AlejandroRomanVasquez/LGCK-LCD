@@ -1,5 +1,5 @@
 # LGCK-LCD
-This repository contains the source code for the paper "Controlling the false discovery rate of the Lasso Cox model by a latent Gaussian copula knockoff procedure with application to mixed gene expression data".
+This repository contains the source code for the paper "Controlling the false discovery rate by a Latent Gaussian Copula Knockoff procedure".
 
 
 

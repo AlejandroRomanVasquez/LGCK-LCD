@@ -1,7 +1,20 @@
 # LGCK-LCD
 This repository contains the source code for the paper "Controlling the false discovery rate by a Latent Gaussian Copula Knockoff procedure".
 
-
+Abstract: The penalized Lasso Cox proportional hazards model has been
+widely used to identify prognosis biomarkers in high-dimension settings. However,
+this method tends to select many false positives, affecting its interpretability.
+In order to improve the reproducibility, we wrap the original model
+with the model-X knockoff framework, which is a powerful tool for variable
+selection that allows for controlling the false discovery rate with finite sample
+guarantees. We propose a novel procedure for sampling valid knockoffs
+for ordinal and continuous variables whose distributions are skewed or heavytailed,
+which uses a Latent Mixed Gaussian Copula model to account for the
+dependence structure between the variables. We name it the Latent Gaussian
+Copula Knockoff (LGCK) procedure. We combine the LGCK method with
+the Lasso coefficient difference (LCD) statistic as the importance metric. We
+illustrate the proposed methodology’s effectiveness by applying it to a real
+gene expression dataset of lung cancer.
 
 The computational implementations of the proposed methods were carried on using R and Python programming languages, employing versions 3.6.3 and 3.9.7, respectively.
 The code for running the simulations and the application to a real dataset uses several packages from R and Python. The R packages are the following: dplyr (version 1.0.9), glmnet (version 4.1.4), and survival (version 3.4.0). The Python libraries are the following: numpy (version 1.20.3), pandas (version 1.3.4), joblib (version 1.1.0), matplotlib (version 3.4.3), knockpy (version 1.1.1), gglasso (version 0.1.9), and rpy2 (version 3.5.1).

@@ -2,7 +2,7 @@
 This repository contains the source code for the paper "Controlling the false discovery rate by a Latent Gaussian Copula Knockoff procedure".
 
 
-The computational implementations of the proposed methods were carried on using R and Python programming languages, employing versions 3.6.3 and 3.9.7, respectively.
+The computational implementations of the proposed methods were carried out using R and Python programming languages, employing versions 3.6.3 and 3.9.7, respectively.
 The code for running the simulations and the application to a real dataset uses several packages from R and Python. The R packages are the following: dplyr (version 1.0.9), glmnet (version 4.1.4), and survival (version 3.4.0). The Python libraries are the following: numpy (version 1.20.3), pandas (version 1.3.4), joblib (version 1.1.0), matplotlib (version 3.4.3), knockpy (version 1.1.1), gglasso (version 0.1.9), and rpy2 (version 3.5.1).
 
 

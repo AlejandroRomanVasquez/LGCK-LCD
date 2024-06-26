@@ -1,5 +1,5 @@
 # LGCK-LCD
-This repository contains the source code for the paper "Controlling the false discovery rate by a Latent Gaussian Copula Knockoff procedure".
+This repository contains the source code for the paper "Controlling the false discovery rate by a Latent Gaussian Copula Knockoff procedure" https://doi.org/10.1007/s00180-023-01346-4.
 
 
 The computational implementations of the proposed methods were carried out using R and Python programming languages, employing versions 3.6.3 and 3.9.7, respectively.
